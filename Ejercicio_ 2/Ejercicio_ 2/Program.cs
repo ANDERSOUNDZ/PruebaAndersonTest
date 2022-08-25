@@ -21,7 +21,7 @@ namespace Ejercicio__2
             Persona persona = new Persona();
             if (persona.Edad >= 18)
             {
-                 return Console.WriteLine( persona.Apellido + persona.Nombre + persona.Edad); 
+                 return Console.WriteLine( persona.Apellido + persona.Nombre + persona.Edad, persona.Sexo); 
             }
             else {
                 return Console.WriteLine("Mujeres menores a -18");
